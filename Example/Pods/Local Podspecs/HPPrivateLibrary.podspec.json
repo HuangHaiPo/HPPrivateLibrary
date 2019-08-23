@@ -1,0 +1,22 @@
+{
+  "name": "HPPrivateLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of HPPrivateLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15670967649/HPPrivateLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15670967649": "huanghp@317hu.com"
+  },
+  "source": {
+    "git": "https://github.com/15670967649/HPPrivateLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HPPrivateLibrary/Classes/**/*"
+}

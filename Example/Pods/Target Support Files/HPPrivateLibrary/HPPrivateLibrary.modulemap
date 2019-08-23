@@ -1,0 +1,6 @@
+framework module HPPrivateLibrary {
+  umbrella header "HPPrivateLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

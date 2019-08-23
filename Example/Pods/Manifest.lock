@@ -1,0 +1,16 @@
+PODS:
+  - HPPrivateLibrary (0.1.0)
+
+DEPENDENCIES:
+  - HPPrivateLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  HPPrivateLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HPPrivateLibrary: 906cfbcdbd01433987a7b1bcabbe178317ec01de
+
+PODFILE CHECKSUM: b66036fd108aeb729fb092653f6bbe2d9d4aee15
+
+COCOAPODS: 1.7.5
