@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HPPrivateLibrary_Example' do
+  pod 'HPPrivateLibrary', :path => '../'
+
+  target 'HPPrivateLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
