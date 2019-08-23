@@ -1,9 +1,9 @@
 {
   "name": "HPPrivateLibrary",
-  "version": "0.1.0",
-  "summary": "A short description of HPPrivateLibrary.",
+  "version": "0.0.1",
+  "summary": "私有库",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/15670967649/HPPrivateLibrary",
+  "homepage": "https://github.com/HuangHaiPo/HPPrivateLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "15670967649": "huanghp@317hu.com"
   },
   "source": {
-    "git": "https://github.com/15670967649/HPPrivateLibrary.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/HuangHaiPo/HPPrivateLibrary.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HPPrivateLibrary/Classes/**/*"
+  "source_files": "HPPrivateLibrary/Classes/*",
+  "subspecs": [
+    {
+      "name": "HPPrivateLibrary",
+      "subspecs": [
+        {
+          "name": "ViewControllers",
+          "source_files": "HPPrivateLibrary/Classes/HPPrivateLibraryClass/ViewControllers/*"
+        }
+      ]
+    }
+  ]
 }

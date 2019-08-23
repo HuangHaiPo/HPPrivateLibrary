@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HBNewViewController.h"
 #import "HBViewController.h"
 #import "ViewController.h"
 

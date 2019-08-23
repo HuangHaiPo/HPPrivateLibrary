@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		129803C6BE880D6213B4A97B66F00C8D /* HPPrivateLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 465C3613C51E55AF68AA278954B54F1A /* HPPrivateLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09DD91B01B37B19447DA478845E8BD59 /* HPPrivateLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E3DCCCACC6DDD5E6963A15E91FF381 /* HPPrivateLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1838D5B5B85D3B862FF3754943551D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1A386C096656CE9F3AF33D6B9BF92CB2 /* HPPrivateLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C260353E92E0DCC72EED00292FCE165 /* HPPrivateLibrary-dummy.m */; };
 		34DE72CD66014DE54392483A4C4D7CCE /* Pods-HPPrivateLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB871391AA4C1BCEB6642ED4CC79D06 /* Pods-HPPrivateLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FBF1A35BE54ECED992689C1184918F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7B96444218CA32C539002DFF61C85BA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0659927D5FFBD287D8B559AAA07556 /* ViewController.m */; };
-		88C8BB1AC27340CA58ED9A33BE28EE2E /* HPPrivateLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 047727D45770B794B8944439DC3B1F3D /* HPPrivateLibrary-dummy.m */; };
+		5FF76CA6CAD97CA7ACC57A5DA3EC3AF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6414D80EF962E25C6F4AF97A63EBB4F5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 24820422ABFE571932FADFE77FDF65BB /* ReplaceMe.m */; };
+		7396A3BF981072E5D33016EC18123D6C /* HBNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA87E655AB73D045E6F1EDD66EAFC14 /* HBNewViewController.m */; };
+		7B03224BD22549E49A5CD09D978259CE /* HBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC6D87225507CC8DAB0373DAE464BE /* HBViewController.m */; };
+		91F777D6F820714B0A5A183B1BC4A093 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 297AE7DF460EFB9683C9506EB8BFA956 /* ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9382177CF2037F4DAB5487DB4950AAC5 /* Pods-HPPrivateLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 479F7BE0F44A27D1A18E2D900CFCE55E /* Pods-HPPrivateLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C2EFABDAB5A23A3A4F3F3618A533388 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F21D726DAB810C0706C251BE88DACEF6 /* ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9F04A97375273583ECD7F221C7B31EE /* Pods-HPPrivateLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B97FAFB668BCDEC03AB658D60B48414D /* Pods-HPPrivateLibrary_Example-dummy.m */; };
 		C9B272B4D1D647EAF44FB24B47E844BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CB1A3A8364C7B4ACECBA330B4BE01D9E /* Pods-HPPrivateLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AD08B4CF13BFD46EA210595A156898 /* Pods-HPPrivateLibrary_Tests-dummy.m */; };
-		DE141B3D997CCCD3C81A97123A4CFC31 /* HBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C75AB8CAE9102F7FAD67C8E2001111 /* HBViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC5F8F15B9701860C9EECAD7E605BA6F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B34D1B1085DD510230B722666F1E4D8E /* ReplaceMe.m */; };
-		F4849599EC037091960215F5E955F415 /* HBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0867CD641EAAAA9920CD214A37637F /* HBViewController.m */; };
+		CEBB8B3C987E1E9C78AF6559E63C9685 /* HBNewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA07289DF8474CD1B0F24084F75A044 /* HBNewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC942B2429F58970AE5331B677A6DC92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80375C897B915E18360E425B84B6720 /* ViewController.m */; };
+		F573371D97E54D43155C288D4829C2B1 /* HBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DB50073750C220DEE31D7EBE384968 /* HBViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,42 +43,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047727D45770B794B8944439DC3B1F3D /* HPPrivateLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HPPrivateLibrary-dummy.m"; sourceTree = "<group>"; };
-		0E0659927D5FFBD287D8B559AAA07556 /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		12DEC79BEEE9A432F250C49D046DB8E8 /* Pods-HPPrivateLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPPrivateLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1537988479216C5EA38505354853EB17 /* Pods-HPPrivateLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPPrivateLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1586B07B05351F4997B4BAB90D214BC9 /* Pods-HPPrivateLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPPrivateLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1CB871391AA4C1BCEB6642ED4CC79D06 /* Pods-HPPrivateLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HPPrivateLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1DDC6D87225507CC8DAB0373DAE464BE /* HBViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBViewController.m; path = HPPrivateLibrary/Classes/HPPrivateLibraryClass/ViewControllers/HBViewController.m; sourceTree = "<group>"; };
 		1F5E98F15C4D91710F0234A41BFF55D4 /* Pods-HPPrivateLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPPrivateLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		24820422ABFE571932FADFE77FDF65BB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HPPrivateLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		24AD08B4CF13BFD46EA210595A156898 /* Pods-HPPrivateLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPPrivateLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		288B4555D1AAD87C53F53ADAA14C4C64 /* Pods-HPPrivateLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPPrivateLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		288C26DB6D3E9D04124462DEF632E976 /* Pods-HPPrivateLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPPrivateLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		297AE7DF460EFB9683C9506EB8BFA956 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = HPPrivateLibrary/Classes/HPPrivateLibraryClass/ViewControllers/ViewController.h; sourceTree = "<group>"; };
 		2B292BD895DAD0578232E52112A8F70B /* Pods-HPPrivateLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HPPrivateLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		2C260353E92E0DCC72EED00292FCE165 /* HPPrivateLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HPPrivateLibrary-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		323CA522743639F0B3A2D9BF21A038F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		465C3613C51E55AF68AA278954B54F1A /* HPPrivateLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPPrivateLibrary-umbrella.h"; sourceTree = "<group>"; };
-		46B0F7EECA1BD934A014F041E2CD1DE8 /* HPPrivateLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HPPrivateLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46DB362BFDC245C28BC18195AD2D2657 /* HPPrivateLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HPPrivateLibrary.modulemap; sourceTree = "<group>"; };
+		32DB50073750C220DEE31D7EBE384968 /* HBViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBViewController.h; path = HPPrivateLibrary/Classes/HPPrivateLibraryClass/ViewControllers/HBViewController.h; sourceTree = "<group>"; };
+		36BACCCCA5EF987F4E192ADD7A631658 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46B0F7EECA1BD934A014F041E2CD1DE8 /* HPPrivateLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HPPrivateLibrary.framework; path = HPPrivateLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		479F7BE0F44A27D1A18E2D900CFCE55E /* Pods-HPPrivateLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HPPrivateLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		47DFF25BD131590D03D4E8A91A9EF05E /* HPPrivateLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HPPrivateLibrary-Info.plist"; sourceTree = "<group>"; };
 		51CC31B7F1918C8EA0C23CBFBA423BB2 /* Pods-HPPrivateLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPPrivateLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5F1BCD2CCEBBBFAA65C10A4B50FF1026 /* Pods-HPPrivateLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HPPrivateLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		6578F3735A2937DC8782D4CDA2DA46C6 /* HPPrivateLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HPPrivateLibrary.xcconfig; sourceTree = "<group>"; };
+		68AFCB8D7B2D733FDEDB96BEFBF29BAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6C66E4DB401AC1489A97929AD9291DE0 /* HPPrivateLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HPPrivateLibrary.xcconfig; sourceTree = "<group>"; };
+		7CA07289DF8474CD1B0F24084F75A044 /* HBNewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBNewViewController.h; path = HPPrivateLibrary/Classes/HPPrivateLibraryClass/ViewControllers/HBNewViewController.h; sourceTree = "<group>"; };
 		7E37DC9401244E1BD3CA705C01EB8836 /* Pods-HPPrivateLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPPrivateLibrary_Example-Info.plist"; sourceTree = "<group>"; };
-		83C75AB8CAE9102F7FAD67C8E2001111 /* HBViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBViewController.h; sourceTree = "<group>"; };
 		8AE5A6C10035DEB772A42F77420B0DCA /* Pods-HPPrivateLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPPrivateLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F5B4EFF10242BA9F0A1B5C9765CB50B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B34D1B1085DD510230B722666F1E4D8E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HPPrivateLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9BA87E655AB73D045E6F1EDD66EAFC14 /* HBNewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBNewViewController.m; path = HPPrivateLibrary/Classes/HPPrivateLibraryClass/ViewControllers/HBNewViewController.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A27BE9C2D04B5956B103BD6BEF32D15D /* HPPrivateLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HPPrivateLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A80375C897B915E18360E425B84B6720 /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = HPPrivateLibrary/Classes/HPPrivateLibraryClass/ViewControllers/ViewController.m; sourceTree = "<group>"; };
 		B97FAFB668BCDEC03AB658D60B48414D /* Pods-HPPrivateLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPPrivateLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		BC89594037B2A189566CBFA40628D3FC /* Pods_HPPrivateLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPPrivateLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC89594037B2A189566CBFA40628D3FC /* Pods_HPPrivateLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HPPrivateLibrary_Tests.framework; path = "Pods-HPPrivateLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CC2314901EA7DDC07A2801F30E72F7 /* HPPrivateLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPPrivateLibrary-prefix.pch"; sourceTree = "<group>"; };
+		CB7FA15E4B09D6C3E2265EF6F9F3D6F0 /* HPPrivateLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HPPrivateLibrary.modulemap; sourceTree = "<group>"; };
 		E2566C6F34503C75C8123A6043AAEC80 /* Pods-HPPrivateLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPPrivateLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EE00378955DF7CA1643D607106483336 /* Pods_HPPrivateLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPPrivateLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F21D726DAB810C0706C251BE88DACEF6 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F409773006945EA88A39C3C92B6898EF /* HPPrivateLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HPPrivateLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		E6FA3E574305833B25D18CEC7EBD6BA5 /* HPPrivateLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HPPrivateLibrary-Info.plist"; sourceTree = "<group>"; };
+		EE00378955DF7CA1643D607106483336 /* Pods_HPPrivateLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HPPrivateLibrary_Example.framework; path = "Pods-HPPrivateLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E3DCCCACC6DDD5E6963A15E91FF381 /* HPPrivateLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPPrivateLibrary-umbrella.h"; sourceTree = "<group>"; };
 		F43F817528ED02B40437F68906757617 /* Pods-HPPrivateLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPPrivateLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F650733702D1729B108E2AF4A4233E3D /* HPPrivateLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPPrivateLibrary-prefix.pch"; sourceTree = "<group>"; };
-		FE0867CD641EAAAA9920CD214A37637F /* HBViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +92,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDDE1CD4EAF3110DEDA3AA24DC8C22FD /* Frameworks */ = {
+		9932E8BA182FF0CF55A8FE510E94AB98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FBF1A35BE54ECED992689C1184918F8 /* Foundation.framework in Frameworks */,
+				5FF76CA6CAD97CA7ACC57A5DA3EC3AF0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,28 +128,6 @@
 			path = "Target Support Files/Pods-HPPrivateLibrary_Example";
 			sourceTree = "<group>";
 		};
-		1AE720E7877C813FF1F3FBEC8C1E3728 /* HPPrivateLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				B34D1B1085DD510230B722666F1E4D8E /* ReplaceMe.m */,
-				639AB8B6D308C673647C49D06282E1AD /* HPPrivateLibraryClass */,
-				1ECC041D23E48B3EAA9735DD0A1023CC /* Pod */,
-				5C0604534B10396FE29C212944886B49 /* Support Files */,
-			);
-			name = HPPrivateLibrary;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		1ECC041D23E48B3EAA9735DD0A1023CC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F409773006945EA88A39C3C92B6898EF /* HPPrivateLibrary.podspec */,
-				9F5B4EFF10242BA9F0A1B5C9765CB50B /* LICENSE */,
-				323CA522743639F0B3A2D9BF21A038F4 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		20366D8E5DCF29CA6BFFD3FA6A0341E9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,40 +135,6 @@
 				68F572EFBCE3178DB37DA1D253BDA242 /* Pods-HPPrivateLibrary_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5C0604534B10396FE29C212944886B49 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46DB362BFDC245C28BC18195AD2D2657 /* HPPrivateLibrary.modulemap */,
-				6578F3735A2937DC8782D4CDA2DA46C6 /* HPPrivateLibrary.xcconfig */,
-				047727D45770B794B8944439DC3B1F3D /* HPPrivateLibrary-dummy.m */,
-				47DFF25BD131590D03D4E8A91A9EF05E /* HPPrivateLibrary-Info.plist */,
-				F650733702D1729B108E2AF4A4233E3D /* HPPrivateLibrary-prefix.pch */,
-				465C3613C51E55AF68AA278954B54F1A /* HPPrivateLibrary-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HPPrivateLibrary";
-			sourceTree = "<group>";
-		};
-		639AB8B6D308C673647C49D06282E1AD /* HPPrivateLibraryClass */ = {
-			isa = PBXGroup;
-			children = (
-				659CF87B7A3B449FF4D921A0256BFA25 /* ViewControllers */,
-			);
-			name = HPPrivateLibraryClass;
-			path = HPPrivateLibrary/Classes/HPPrivateLibraryClass;
-			sourceTree = "<group>";
-		};
-		659CF87B7A3B449FF4D921A0256BFA25 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				83C75AB8CAE9102F7FAD67C8E2001111 /* HBViewController.h */,
-				FE0867CD641EAAAA9920CD214A37637F /* HBViewController.m */,
-				F21D726DAB810C0706C251BE88DACEF6 /* ViewController.h */,
-				0E0659927D5FFBD287D8B559AAA07556 /* ViewController.m */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		68F572EFBCE3178DB37DA1D253BDA242 /* Pods-HPPrivateLibrary_Tests */ = {
@@ -205,6 +153,16 @@
 			path = "Target Support Files/Pods-HPPrivateLibrary_Tests";
 			sourceTree = "<group>";
 		};
+		9219D36609D850DAC16AAC7FAF8ED3B0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A27BE9C2D04B5956B103BD6BEF32D15D /* HPPrivateLibrary.podspec */,
+				68AFCB8D7B2D733FDEDB96BEFBF29BAA /* LICENSE */,
+				36BACCCCA5EF987F4E192ADD7A631658 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		9BF760FAD4802515251AD2167E34039A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,9 +176,23 @@
 		A18CFFDA07576B2D8814C2709A818A3F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1AE720E7877C813FF1F3FBEC8C1E3728 /* HPPrivateLibrary */,
+				EC9E9829ADCEA71E017FCE598D1EB464 /* HPPrivateLibrary */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A769D4BF27370BDB5D7D0F02BA51A5B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FA15E4B09D6C3E2265EF6F9F3D6F0 /* HPPrivateLibrary.modulemap */,
+				6C66E4DB401AC1489A97929AD9291DE0 /* HPPrivateLibrary.xcconfig */,
+				2C260353E92E0DCC72EED00292FCE165 /* HPPrivateLibrary-dummy.m */,
+				E6FA3E574305833B25D18CEC7EBD6BA5 /* HPPrivateLibrary-Info.plist */,
+				C4CC2314901EA7DDC07A2801F30E72F7 /* HPPrivateLibrary-prefix.pch */,
+				F2E3DCCCACC6DDD5E6963A15E91FF381 /* HPPrivateLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HPPrivateLibrary";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -250,6 +222,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC9E9829ADCEA71E017FCE598D1EB464 /* HPPrivateLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				24820422ABFE571932FADFE77FDF65BB /* ReplaceMe.m */,
+				9219D36609D850DAC16AAC7FAF8ED3B0 /* Pod */,
+				A769D4BF27370BDB5D7D0F02BA51A5B4 /* Support Files */,
+				F8FD80CF00F2042300061BE1C891BB0E /* ViewControllers */,
+			);
+			name = HPPrivateLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F8FD80CF00F2042300061BE1C891BB0E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CA07289DF8474CD1B0F24084F75A044 /* HBNewViewController.h */,
+				9BA87E655AB73D045E6F1EDD66EAFC14 /* HBNewViewController.m */,
+				32DB50073750C220DEE31D7EBE384968 /* HBViewController.h */,
+				1DDC6D87225507CC8DAB0373DAE464BE /* HBViewController.m */,
+				297AE7DF460EFB9683C9506EB8BFA956 /* ViewController.h */,
+				A80375C897B915E18360E425B84B6720 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -261,21 +258,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3C48229896F28132E185FFF169C84565 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB8B3C987E1E9C78AF6559E63C9685 /* HBNewViewController.h in Headers */,
+				F573371D97E54D43155C288D4829C2B1 /* HBViewController.h in Headers */,
+				09DD91B01B37B19447DA478845E8BD59 /* HPPrivateLibrary-umbrella.h in Headers */,
+				91F777D6F820714B0A5A183B1BC4A093 /* ViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		774A0E0B7F05B6CC37816F58EFC048F9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9382177CF2037F4DAB5487DB4950AAC5 /* Pods-HPPrivateLibrary_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF425E4C43F83628547D59D7EB5D44CF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE141B3D997CCCD3C81A97123A4CFC31 /* HBViewController.h in Headers */,
-				129803C6BE880D6213B4A97B66F00C8D /* HPPrivateLibrary-umbrella.h in Headers */,
-				9C2EFABDAB5A23A3A4F3F3618A533388 /* ViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,12 +320,12 @@
 		};
 		C489645428670CC6EEA6BA80068F34AC /* HPPrivateLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C11D2CD553E5392D9871C2CD0FC45803 /* Build configuration list for PBXNativeTarget "HPPrivateLibrary" */;
+			buildConfigurationList = A193A88C6104D41B574C665AA5757776 /* Build configuration list for PBXNativeTarget "HPPrivateLibrary" */;
 			buildPhases = (
-				AF425E4C43F83628547D59D7EB5D44CF /* Headers */,
-				E4A3D8B4B88BA4BCA01FF2735DD8761E /* Sources */,
-				BDDE1CD4EAF3110DEDA3AA24DC8C22FD /* Frameworks */,
-				74327EFBCFA500695CECFB6DAD4E8860 /* Resources */,
+				3C48229896F28132E185FFF169C84565 /* Headers */,
+				A35AA7B8176D9F97EEE91E3AFCFF8822 /* Sources */,
+				9932E8BA182FF0CF55A8FE510E94AB98 /* Frameworks */,
+				2DBFC9DCAC2E2DC448FDB356D06A3FE1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -374,7 +372,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74327EFBCFA500695CECFB6DAD4E8860 /* Resources */ = {
+		2DBFC9DCAC2E2DC448FDB356D06A3FE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,14 +405,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4A3D8B4B88BA4BCA01FF2735DD8761E /* Sources */ = {
+		A35AA7B8176D9F97EEE91E3AFCFF8822 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4849599EC037091960215F5E955F415 /* HBViewController.m in Sources */,
-				88C8BB1AC27340CA58ED9A33BE28EE2E /* HPPrivateLibrary-dummy.m in Sources */,
-				EC5F8F15B9701860C9EECAD7E605BA6F /* ReplaceMe.m in Sources */,
-				7B96444218CA32C539002DFF61C85BA7 /* ViewController.m in Sources */,
+				7396A3BF981072E5D33016EC18123D6C /* HBNewViewController.m in Sources */,
+				7B03224BD22549E49A5CD09D978259CE /* HBViewController.m in Sources */,
+				1A386C096656CE9F3AF33D6B9BF92CB2 /* HPPrivateLibrary-dummy.m in Sources */,
+				6414D80EF962E25C6F4AF97A63EBB4F5 /* ReplaceMe.m in Sources */,
+				DC942B2429F58970AE5331B677A6DC92 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,37 +435,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1302E982857A8D94093EB50FEC21DAC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6578F3735A2937DC8782D4CDA2DA46C6 /* HPPrivateLibrary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary.modulemap";
-				PRODUCT_MODULE_NAME = HPPrivateLibrary;
-				PRODUCT_NAME = HPPrivateLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1B914CA60CE3105D032735BA4D79197E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1586B07B05351F4997B4BAB90D214BC9 /* Pods-HPPrivateLibrary_Example.debug.xcconfig */;
@@ -534,6 +502,37 @@
 			};
 			name = Release;
 		};
+		4620C38028239B94B5254380A9CB51CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C66E4DB401AC1489A97929AD9291DE0 /* HPPrivateLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary.modulemap";
+				PRODUCT_MODULE_NAME = HPPrivateLibrary;
+				PRODUCT_NAME = HPPrivateLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -587,9 +586,42 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		703DA05251B95B6B494DBE1230D8C776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C66E4DB401AC1489A97929AD9291DE0 /* HPPrivateLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary.modulemap";
+				PRODUCT_MODULE_NAME = HPPrivateLibrary;
+				PRODUCT_NAME = HPPrivateLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -724,38 +756,6 @@
 			};
 			name = Release;
 		};
-		B78E5712E96074B439E767E44B22238C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6578F3735A2937DC8782D4CDA2DA46C6 /* HPPrivateLibrary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HPPrivateLibrary/HPPrivateLibrary.modulemap";
-				PRODUCT_MODULE_NAME = HPPrivateLibrary;
-				PRODUCT_NAME = HPPrivateLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -777,11 +777,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C11D2CD553E5392D9871C2CD0FC45803 /* Build configuration list for PBXNativeTarget "HPPrivateLibrary" */ = {
+		A193A88C6104D41B574C665AA5757776 /* Build configuration list for PBXNativeTarget "HPPrivateLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1302E982857A8D94093EB50FEC21DAC2 /* Debug */,
-				B78E5712E96074B439E767E44B22238C /* Release */,
+				4620C38028239B94B5254380A9CB51CE /* Debug */,
+				703DA05251B95B6B494DBE1230D8C776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

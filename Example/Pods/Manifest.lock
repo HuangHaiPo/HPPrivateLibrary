@@ -1,5 +1,9 @@
 PODS:
-  - HPPrivateLibrary (0.1.0)
+  - HPPrivateLibrary (0.0.1):
+    - HPPrivateLibrary/HPPrivateLibrary (= 0.0.1)
+  - HPPrivateLibrary/HPPrivateLibrary (0.0.1):
+    - HPPrivateLibrary/HPPrivateLibrary/ViewControllers (= 0.0.1)
+  - HPPrivateLibrary/HPPrivateLibrary/ViewControllers (0.0.1)
 
 DEPENDENCIES:
   - HPPrivateLibrary (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HPPrivateLibrary: 906cfbcdbd01433987a7b1bcabbe178317ec01de
+  HPPrivateLibrary: e8c62736fe957c852ea6adb60c196239d68efe65
 
 PODFILE CHECKSUM: b66036fd108aeb729fb092653f6bbe2d9d4aee15
 

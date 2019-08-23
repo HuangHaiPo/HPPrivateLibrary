@@ -32,6 +32,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'HPPrivateLibrary/Classes/*'
   
+  s.subspec 'HPPrivateLibrary' do |ss|
+    ss.subspec 'ViewControllers' do |sss|
+      #      不是真实路径依赖 比如说ViewControllers依赖了Views，Views依赖了Models，所以不需要在写依赖Models
+      sss.source_files = 'HPPrivateLibrary/Classes/HPPrivateLibraryClass/ViewControllers/*'
+    end
+  end
+
   # s.resource_bundles = {
   #   'HPPrivateLibrary' => ['HPPrivateLibrary/Assets/*.png']
   # }
